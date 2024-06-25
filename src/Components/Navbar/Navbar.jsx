@@ -42,9 +42,10 @@ function Navbar() {
       </div>
       <div className={classes.navlink_container}>
         <ul>
-          <li><button class={classes.button2} onClick={()=>navigation('About')}>About</button></li>
-          <li><button class={classes.button2} onClick={()=>navigation('Services')}>Services</button></li>
-          <li><button class={classes.button2} onClick={()=>navigation('Contact')}>Contact</button></li>
+          <li><button class={classes.button2} onClick={()=>navigation('About')}>ABOUT</button></li>
+          <li><button class={classes.button2} onClick={()=>navigation('Services')}>SERVICES</button></li>
+          <li><button class={classes.button2} onClick={()=>navigation('Contact')}>CONTACT</button></li>
+          <li><button class={classes.button2} onClick={()=>navigation('Enrollment')}>ENROLL NOW</button></li>
         </ul>
       </div>
    </div>
