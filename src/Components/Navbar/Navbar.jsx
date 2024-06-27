@@ -38,7 +38,7 @@ function Navbar() {
   return (
    <div className={classes.navbar}>
       <div className={classes.logo_container}>
-        <img className={classes.logo} src='Icons/logo.png' alt="logo" onClick={()=>navigation('')}/>
+        <img className={classes.logo} src='Icons/DIVINE.png' alt="logo" onClick={()=>navigation('')}/>
       </div>
       <div className={classes.navlink_container}>
         <ul>

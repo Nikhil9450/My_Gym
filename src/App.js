@@ -10,7 +10,7 @@ import { Navigate } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className='mainapp'>
     <Navbar/>
     <Routes>
         <Route path='*' element={<Navigate to="/" />} />
