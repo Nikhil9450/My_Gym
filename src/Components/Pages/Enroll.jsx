@@ -14,10 +14,11 @@ const Enroll = () => {
         <h2>CHOOSE YOUR FITNESS </h2>
         <h2>MEMBERSHIP PLAN</h2>
             <div className={classes.card_container}>
-                <Card plan="BASIC"  price='2000' month="1 Month" description="Unlimited access to all area." />
-                <Card plan="SILVER" price='1500' month="3 Month" description="Unlimited access to all area." />
-                <Card plan="GOLD" price='1200' month="6 Month" description="Unlimited access to all area." />
-                <Card plan="PLATINUM" price='1000' month="12 Month" description="Unlimited access to all area." />
+                <Card plan="1 MONTH"  price='1599' month="1 Month" description="Unlimited access to all area." />
+                <Card plan="2 MONTHS" price='2699' month="2 Month" description="Unlimited access to all area." />
+                <Card plan="3 MONTHS" price='3499' month="3 Month" description="Unlimited access to all area." />
+                <Card plan="6 MONTHS" price='5999' month="6 Month" description="Unlimited access to all area." />
+                <Card plan="12 MONTHS" price='9999' month="12 Month" description="Unlimited access to all area." />
             </div>
     </div>
      </motion.div>

@@ -14,18 +14,25 @@ const Contact = () => {
       <div className={classes.leftdiv}>
 
          <div className={classes.links_container}>
-            <MapIcon style={{color:'white',marginRight:'1rem'}}/>
-           <a href="">Laxmi Nagar,Delhi</a>
+            <MapIcon style={{color:'white',marginRight:'1rem',marginTop: '10px'}}/>
+           <p>A-26, Guru Angad Nagar Extn. Laxmi Nagar,<br />Near Paliwal Dharmsala.</p>
          </div>
          <div className={classes.links_container}>
           <MailIcon style={{color:'white',marginRight:'1rem'}}/>
-          <p>divinefitness@outlook.com</p>         
+          <p>Divine.fitgym@gmail.com</p>         
         </div>
          <div className={classes.links_container}>
-           <LocalPhoneIcon style={{color:'white',marginRight:'1rem'}}/>
-           <p>+918569321456</p>
+           <LocalPhoneIcon style={{color:'white',marginRight:'1rem',marginTop: '10px'}}/>
+           <div>
+              <p><span>Aman:</span>+91-7053923339</p>
+              <p><span>Aniket:</span>+91-8368252162</p>
+           </div>
          </div>
-         <div className={classes.socialLink_container}>
+         <div className={classes.links_container}>
+           <InstagramIcon  style={{color:'white',marginRight:'1rem'}}/>
+              <p>divine_fitness13</p>
+         </div>
+         {/* <div className={classes.socialLink_container}>
             <a href="">
                 <FacebookIcon style={{color:'white'}}/>
             </a>
@@ -35,7 +42,7 @@ const Contact = () => {
             <a href="">
                 <InstagramIcon style={{color:'white'}}/>
             </a>
-         </div>
+         </div> */}
       </div>
       <div className={classes.rightdiv}>
         <div className={classes['input-group']}>
