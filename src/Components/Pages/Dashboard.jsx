@@ -22,7 +22,7 @@ const Dashboard = () => {
         <div className={classes.h1_container}>
           <div>
             <h1>JOIN THE HUSTLE</h1>
-            <h3>SPIRIT / HMC CARDIO MACHINES, <br /> REAL LEADER USA STRENGTH MACHINES.</h3>
+            <h4>SPIRIT / HMC CARDIO MACHINES, <br /> REAL LEADER USA STRENGTH MACHINES.</h4>
             <button className={classes.btn} onClick={()=>navigation('Enrollment')}>ENROLL NOW</button>
           </div>
         </div>

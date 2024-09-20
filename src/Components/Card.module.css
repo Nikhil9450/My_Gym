@@ -57,7 +57,7 @@
   .card::after {
     bottom: 0;
     left: 0;
-    background-color: #f3f3f38c;
+    background-color: #de1b1b;
     /* border-radius: 0 100%  0 15px; */
   }
   
@@ -74,8 +74,8 @@
     /* position: absolute;
     bottom: 10px;
     right: 10px; */
-    background-color: #f3f3f3;
-    color: rgb(126, 126, 126);
+    background-color: #de1b1b;
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
     /* padding: 5px 10px;

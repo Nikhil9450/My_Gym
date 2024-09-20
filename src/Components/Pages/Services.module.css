@@ -1,16 +1,66 @@
-.Services_container{
+.Services_container {
     padding-top: 5rem;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.services_ul{
+  }
+  
+  .services_ul {
     display: flex;
     flex-direction: column;
     align-items: start;
     color: rgb(211, 211, 211);
     list-style: disc;
-}
+    padding-left: 2rem;
+  }
+  
+  .Services_container_child {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .Services_Left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    width: 30%;
+    background-color: rgba(137, 43, 226, 0.467);
+    padding: 1rem;
+  }
+  
+  .Services_right {
+    height: inherit;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: rgba(255, 47, 47, 0.467);
+    padding: 1rem;
+  }
+  
+  .grid_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set grid to 4 columns */
+    justify-items: center;
+    padding: 1rem;
+    width: 60%;
+    padding: 1rem;
+  }
+  
+  .grid_item img {
+    height: 100px; /* Initial height */
+    width: 150px;  /* Initial width */
+    object-fit: cover; /* Crops the image to fit the box */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .grid_item img:hover {
+    transform: scale(1.2); /* Enlarge on hover without transparent spaces */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    object-fit: cover; /* Maintain cropping while enlarging */
+  }
